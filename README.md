@@ -23,11 +23,17 @@ Para un rango SNR entre los -2dB y 3dB se grafica el comportamiento de la señal
 Para los casos  de SNR = -2db y -1dB las distorsión es mayor dado que la potencia del ruido es mayor a la potencia de la señal. Cabe destacar que en todos los casos las gráficas DEP son iguales dado que se trata de la misma señal con una frecuencia de 5 kHz por lo tanto, la potencia de la señal se va a distribuir principalmente entre 0 Hz y 5 kHz con un magnitud máxima 10x10^-4. Si comparamos los valores de la DEP a través del canal ruidos con la DEP de la señal antes del canal (figura  densidad_senal.PNG) se determina que la distribución y valores de potencia se mantienen antes como después del canal ruidoso.
 
 Punto 5
+
 Para SNR= -2 hay  un total de 7.0 errores en 10000 bits para una tasa de error de 0.0007.
+
 Para SNR= -1 hay  un total de 3.0 errores en 10000 bits para una tasa de error de 0.0003.
+
 Para SNR= 0 hay  un total de 1.0 errores en 10000 bits para una tasa de error de 0.0001.
+
 Para SNR= 1 hay  un total de 0.0 errores en 10000 bits para una tasa de error de 0.0.
+
 Para SNR= 2 hay  un total de 1.0 errores en 10000 bits para una tasa de error de 0.0.
+
 Para SNR= 3 hay  un total de 0.0 errores en 10000 bits para una tasa de error de 0.0.
 
 Cabe destacar que el por definición es variable, por lo tanto, para cada vez que ejecuta el script los valores tienden a variar pero el comportamiento es el mismo, para SNR menores a 0 dB tienden a haber más errores y para valores SNR mayores a 0 dB la tasa de error fue de 0 en la mayotoría de las iteraciones.
